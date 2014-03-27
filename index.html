@@ -1,75 +1,138 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bjtuweb-12283013.github.io by bjtuweb-12283013</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="stylesheets/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/bootstrap.css" rel="stylesheet"  />
+<link href="css/position.css" rel="stylesheet"/>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+ 	$i = 0;
+	$(document).ready(function(e) {
+		$("#idtoggletable").click(function(e) {
+            $("#idtable").toggle(1000);
+			$i++;
+			if (i%2==0)
+			{
+				var myfooter = document.getElementById("idmyfooter");
+				myfooter.style.marginTop = "803px";
+				document.write($i);
+			}
+        });
+	});
+</script>
+<title>百度一下 你就知道</title>
+</head>
+<body>
 
-  </head>
-  <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/bjtuweb-12283013">View On GitHub</a></li>
-        </nav>
-      </div><!-- end header -->
+<div class="weather">
+	<iframe id="wetherinfo" name="wetherinfo" src="http://tianqi.3835.com/code/weather3.htm?id=&fc=2E93D9&imgurl=5&bgc=&days=1" frameBorder=0 width=320 height=20 marginwidth=0 marginheight=0 hspace=0 vspace=0 scrolling=no allowtransparency=true></iframe>
+   	<span class="login">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#">登录</a></span>
+</div>
 
-    <div class="wrapper">
 
-      <section>
-        <div id="title">
-          <h1>Bjtuweb-12283013.github.io</h1>
-          <p></p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/bjtuweb-12283013">bjtuweb-12283013</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
 
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Welcome to GitHub Pages.</h3>
+<div class="container">
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>
-<a name="designer-templates" class="anchor" href="#designer-templates"><span class="octicon octicon-link"></span></a>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>
-<a name="rather-drive-stick" class="anchor" href="#rather-drive-stick"><span class="octicon octicon-link"></span></a>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>
-<a name="support-or-contact" class="anchor" href="#support-or-contact"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-
+    <div class="logo" align="center">
+        <img src="images/bdlogo.gif" />
     </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+
+    <div class="linksearch">
+        <div class="link">
+            <a href="#">新闻&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">网页&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">贴吧&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">知道&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">音乐&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">视频&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">地图&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">百科&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">文库&nbsp;&nbsp;&nbsp;</a>
+            <a href="#">更多&gt;&gt;&nbsp;&nbsp;&nbsp;</a>
+        </div>
+    </div>
+
+    <!--    
+    <form class="form-search">
+    	<input type="text" class="search-query" size="60">  
+       	<button type="button" class="btn btn-primary" data-loading-text="正在加载...">百度一下</button>
+    </form>
+    -->
     
-  </body>
+    <div class="row search">
+		<div class="col-lg-7">
+    		<input type="text" class="form-control">
+  		</div>
+        
+        <div class="col-xs-1">
+	       	<button type="button" class="btn btn-primary" data-loading-text="正在加载...">百度一下</button>
+  		</div>
+	</div>
+    <!--
+    <button type="button" class="close" aria-hidden="true" id="idopentab">&times;<font size="1">打开</font></button>
+    -->
+    
+    <div class="mytable">
+    	<!--<p class="text-danger" id="idtoggletable">Toggle Table</p> -->
+        <button type="button" class="btn btn-success btn-xs" id="idtoggletable">Toggle Table</button>
+        <!--
+        <button type="button" class="close" aria-hidden="true" id="idclosetab">&times;<font size="1">关闭</font></button>
+        -->
+        
+    	<table class="table table-hover table-bordered" id="idtable">
+  			<tr>
+            	<td>门户</td>
+                <td><a href="http://www.sohu.com">搜狐</a></td>
+                <td><a href="http://www.163.com">网易</a></td>
+                <td><a href="http://www.tencent.com">腾讯</a></td>
+            </tr>
+            <tr>
+            	<td>购物</td>
+                <td><a href="http://www.jd.com">京东</a></td>
+                <td><a href="http://www.z.cn">亚马逊</a></td>
+                <td><a href="http://www.dangdang.com">当当</a></td>
+            </tr>
+            <tr>
+            	<td>学习</td>
+                <td><a href="http://www.apkbus.com">APKBUS</a></td>
+                <td><a href="http://www.w3cschool.org">W3CSchool</a></td>
+                <td><a href="http://www.eoeandroid">EOE</a></td>
+            </tr>
+		</table>
+    </div>
+    
+    
+    <div class="footer" id="idmyfooter">
+        <p align="center"><a href="#">把百度设为首页</a></p>
+        <p align="center"><a href="#">加入百度推广</a> | <a href="#"> 搜索风云榜</a> | <a href="#">关于百度</a> | <a href="#"> About Baidu</a> | <a href="#">加入开放首页</a></p>
+	</div>
+    
+</div>
+
+
+
+<script src="js/jquery.js" ></script>
+<script src="js/bootstrap.js"></script>
+</body>
 </html>
+
+<!--
+
+	function closeTab()
+    {
+		var closetab = document.getElementById("idtable");
+		closetab.style.display = "none";
+		var myopentab = document.getElementById("idopentab");
+		myopentab.style.display = "block";
+		var myfooter = document.getElementById("idmyfooter");
+		myfooter.style.marginTop = "303px";
+    }
+	
+	function openTab()
+	{
+		var opentab1 = document.getElementById("idtable");
+		opentab1.style.display = "";
+		var myfooter = document.getElementById("idmyfooter");
+		myfooter.style.marginTop = "100px";
+	}
+    -->
